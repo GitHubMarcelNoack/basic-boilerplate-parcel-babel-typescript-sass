@@ -4,7 +4,7 @@
   "description": "Basic boilerplate setup using Parcel, Babel with SASS and TypeScript.",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf ./dist",
+    "clean": "rm -rf ./dist && rm -rf ./.cache",
     "start": "npm run clean && parcel public/index.html",
     "build": "parcel build public/index.html"
   },
@@ -20,11 +20,12 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
+    "autoprefixer": "^9.7.6",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3",
     "typescript": "^3.8.3"
   },
-  "browserlist": [
+  "browserslist": [
     "last 1 version",
     "> 1%",
     "IE 10"
