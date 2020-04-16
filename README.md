@@ -22,12 +22,6 @@ To create a production build:
 npm run build
 ```
 
-## Running
-
-```sh
-node dist/bundle.js
-```
-
 ## Credits
 
 The setup was partly created with [createapp.dev](https://createapp.dev/) and was also inspired by [bradtraversy/vanilla-parcel-boilerplate](https://github.com/bradtraversy/vanilla-parcel-boilerplate).
